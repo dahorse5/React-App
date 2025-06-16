@@ -6,7 +6,7 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), flowbiteReact()],
-  base: "React-finale-project",
+  base: "/React-App",
   server: {
     proxy: {
       "/api": {
