@@ -1,4 +1,4 @@
-import { Card } from 'flowbite-react';
+import React from 'react';
 
 const AboutPage = () => {
 return (
